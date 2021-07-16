@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+div{
+    color: rgb(233, 233, 233);
+}
+header{
+    display: inline-block;
+}
+.item{
+    position: relative;
+    float: left;
+    margin: 90px;
+    margin-right: 0px;
+    margin-top: 60px;
+    font-family: 'roboto', sans-serif;
+    cursor: pointer;
+}
+
+.container_geral{
+    display: flex;
+}
+
+.texto{
+    margin-top: 65px;
+    width:  900px;
+    margin-left: 90px;
+    font-family: 'roboto', sans-serif;
+}
+
+.texto1{
+    font-size: 60px;
+    font-weight: 400;
+    
+}
+.texto2{
+    margin-top: 10px;
+    line-height: 1.5;
+    color: rgb(207, 207, 207);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(180px, auto);
+    grid-auto-flow: dense;
+    grid-column-gap: .5em;
+    grid-row-gap: .5em;
+    margin: 20px 25px 0 20px;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.container img:hover{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+.art5{
+    grid-column-end: span 1;
+    grid-row-end: span 2;
+}
+.art_gif1{
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
+.caixa_texto{
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid white;
+    font-family: 'roboto', sans-serif;
+    padding-left: 3%;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.caixa_cadastrar{
+    margin-top: 40px;
+    border: 2px solid white;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/*
+.container{
+   margin-right: 200px;
+   background-color: blueviolet;
+}
+
+.art2{
+    height: 120px;
+    grid-area: art2;
+    position: absolute;
+    left: 85%;
+}
+.art3{
+    height: 120px;
+    grid-area: art3;
+    position:absolute;
+    left: 85%;
+    top: 50.1%;
+    
+}
+.art4{
+    height: 300px;
+    grid-area: art4;
+    position:absolute;
+    left: 65.2%;
+    
+    
+}
+.art5{
+    height: 300px;
+    grid-area: art5;
+    position:absolute;
+    left: 49.3%;
+    
+    
+}
+.art_gif1{
+    height: 207px;
+    grid-area: art_gif1;
+    position:absolute;
+    left: 49.4%;
+    top: 67%;
+    
+}
+.art_gif2{
+    height: 207px;
+    grid-area: art_gif2;
+    position:absolute;
+    left: 63%;
+    top: 67%;
+    
+}
+.art_gif3{
+    height: 207px;
+    grid-area: art_gif3;
+    position:absolute;
+    left: 76.6%;
+    top: 67%;
+    
+}
+*/
