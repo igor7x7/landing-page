@@ -12,6 +12,14 @@ div{
 header{
     display: inline-block;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    font-family: 'roboto', sans-serif;
+    font-size: 13px;
+}
 .item{
     position: relative;
     float: left;
