@@ -10,4 +10,10 @@ form.addEventListener('submit', (e) =>{
     let convertData = JSON.stringify(data);
 
     localStorage.setItem('lead', convertData);
+
+    let aprovado = document.getElementById('form');
+
+    let enviado = `<div class="sucesso">Cadastrado com sucesso</div>`;
+
+    aprovado.innerHTML  = enviado;
 })

@@ -27,7 +27,7 @@ header{
 }
 
 .texto{
-    margin-top: 65px;
+    margin-top: 55px;
     width:  900px;
     margin-left: 90px;
     font-family: 'roboto', sans-serif;
@@ -42,6 +42,11 @@ header{
     margin-top: 10px;
     line-height: 1.5;
     color: rgb(207, 207, 207);
+}
+
+.texto3{
+    margin-top: 30px;
+    font-size: 16px;
 }
 
 .container{
@@ -72,6 +77,19 @@ header{
     grid-column-end: span 1;
     grid-row-end: span 1;
 }
+.sucesso{
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-family: 'roboto', sans-serif;
+    font-weight:bold;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .caixa_texto{
     margin-top: 20px;
@@ -86,7 +104,7 @@ header{
 }
 
 .caixa_cadastrar{
-    margin-top: 40px;
+    margin-top: 20px;
     border: 2px solid white;
     font-family: 'roboto', sans-serif;
     font-weight: 400;
